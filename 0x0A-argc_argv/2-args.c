@@ -1,23 +1,21 @@
-
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - print all arguemnts
+ * main - prints all arguments it receives
  * @argc: number of arguments
- * @argv: arguments entered
- * Description: print all arguments including file name
- * Return: zero
- **/
-
+ * @argv: array of arguments
+ *
+ * Return: Always 0 (Success)
+ */
 int main(int argc, char *argv[])
-
 {
-int i;
+	int i;
 
-for (i = 0; i < argc; i++)
-{
-printf("%s\n", argv[i]);
-}
-return (0);
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
+
+	return (0);
 }
