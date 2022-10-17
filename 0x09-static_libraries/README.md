@@ -1,1 +1,1 @@
-creating my first static lib.
+trying to create a static library for tge he first time
